@@ -40,6 +40,7 @@ const useStyle=makeStyles({
     marginTop:10
   },
   te:{
+    width:"500px",
     padding: "12px 20px",
   margin:"8px 0",
   display: "inline-block",
@@ -98,7 +99,7 @@ const Dctr = () => {
 
   const onOnclickHandler =  async () => {
     let response=await detectbreast(user);
-    /*{setBreast(response.data)}*/
+    /{setBreast(response.data)}/
     alert("result" + response.data);
   };
    const classes=useStyle();
@@ -124,7 +125,7 @@ const Dctr = () => {
                   <label htmlFor="name"></label>
                     <Tooltip title="Enter your name" placement="right">
                     <input
-                      type="text"
+                      type="number"
                       name="name"
                       id="name"
                       autoComplete="off"
@@ -138,7 +139,7 @@ const Dctr = () => {
                     <label htmlFor="age"></label>
                     <Tooltip title="Enter your Age" placement="right">
                     <input
-                      type="text"
+                      type="number"
                       name="age"
                       id="age"
                       autoComplete="off"
@@ -151,9 +152,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="cp"></label>
-                    <Tooltip title="Enter chest pain type" placement="right">
+                    <Tooltip title="CLump Thickness" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="clump_thickness"
                       id="clump_thickness"
                       autoComplete="off"
@@ -166,9 +167,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="trestbps"></label>
-                    <Tooltip title="Resting Blood Sugar" placement="right">
+                    <Tooltip title="Uniformity of cell size" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="unif_cell_size"
                       id="unif_cell_size"
                       autoComplete="off"
@@ -181,9 +182,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="chol"></label>
-                    <Tooltip title="Enter serum Cholostrol" placement="right">
+                    <Tooltip title="Uniformity of cell size" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="unif_cell_shape"
                       id="unif_cell_shape"
                       autoComplete="off"
@@ -196,9 +197,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="fbs"></label>
-                    <Tooltip title="Fasting Blood Sugar" placement="right">
+                    <Tooltip title="Marginal Adhesion" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="marg_adhesion"
                       id="marg_adhesion"
                       autoComplete="off"
@@ -211,9 +212,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="restecg"></label>
-                    <Tooltip title="Resting Ecg" placement="right">
+                    <Tooltip title="Single epithellial cell size" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="single_epith_cell_size"
                       id="single_epith_cell_size"
                       autoComplete="off"
@@ -226,9 +227,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="thalach"></label>
-                    <Tooltip title="Maximum heart rate" placement="right">
+                    <Tooltip title="Bare nucleolei" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="bare_nuclei"
                       id="bare_nuclei"
                       autoComplete="off"
@@ -241,9 +242,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="exang"></label>
-                    <Tooltip title="Exercise Induced angina" placement="right">
+                    <Tooltip title="bland chromatin" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="bland_chrom"
                       id="bland_chrom"
                       autoComplete="off"
@@ -256,9 +257,9 @@ const Dctr = () => {
 
                   <div className="form-group">
                     <label htmlFor="oldpeak"></label>
-                    <Tooltip title="ST depression induced by exercise relative to rest" placement="right">
+                    <Tooltip title="Norm Nucleolei" placement="right">
                     <input
-                      type="text"
+                      type="number" min="1" max="10"
                       name="norm_nucleoli"
                       id="norm_nucleoli"
                       autoComplete="off"
@@ -273,8 +274,8 @@ const Dctr = () => {
                     <label htmlFor="ca"></label>
                     <Tooltip title="NUmber of major vessels colored by flouroscopy" placement="right">
                     <input
-                      type="text"
-                      name="mitoses"
+                      type="number"
+                      name="mitoses" min="1"  max="3"
                       id="mitoses"
                       autoComplete="off"
                       className={classes.te}
