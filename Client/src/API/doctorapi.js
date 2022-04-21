@@ -1,4 +1,3 @@
-
 const workapi = [
   {
     id: 1,
@@ -27,7 +26,7 @@ const workapi = [
     logo: "fa fa-heartbeat",
     title: "Lung Cancer Prediction",
     info:"The prominent cause of cancer-related mortality throughout the globe is “Lung Cancer”. Hence beforehand detection, prediction and diagnosis of lung cancer has become essential as it expedites and simplifies the consequent clinical board. To erect the progress and medication of cancerous conditions machine learning techniques have been utilized because of its accurate outcomes",
-    link:"/lungcancer"
+    link:"/lung"
   },
   {
     id:5,
@@ -39,3 +38,5 @@ const workapi = [
 
  
 ];
+
+export default workapi;
