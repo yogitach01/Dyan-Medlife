@@ -125,7 +125,7 @@ const Diabetes = () => {
                     <label htmlFor="name"></label>
                     <Tooltip title="Name" placement="right">
                     <input
-                      type="text"
+                           type="text"
                       name="name"
                       id="name"
                       autoComplete="off"
@@ -139,7 +139,7 @@ const Diabetes = () => {
                     <label htmlFor="Gender"></label>
                     <Tooltip title="Enter '0' for Male and '1' for Female" placement="right">
                     <input
-                      type="text"
+                     type="number" min="0" max="1"
                       name="Gender"
                       id="Gender"
                       autoComplete="off"
@@ -154,7 +154,7 @@ const Diabetes = () => {
                     <label htmlFor="Age"></label>
                     <Tooltip title="Enter your Age" placement="right">
                     <input
-                      type="text"
+                         type="number" min="1" max="100"
                       name="Age"
                       id="Age"
                       autoComplete="off"
@@ -169,7 +169,7 @@ const Diabetes = () => {
                     <label htmlFor="preganancies"></label>
                     <Tooltip title="preganancies" placement="right">
                     <input
-                      type="text"
+                           type="number" min="1" max="12"
                       name="preganancies"
                       id="preganancies"
                       autoComplete="off"
@@ -184,7 +184,7 @@ const Diabetes = () => {
                     <label htmlFor="Glucose"></label>
                     <Tooltip title="Glucose" placement="right">
                     <input
-                      type="text"
+                          type="number" min="0" max="200"
                       name="Glucose"
                       id="Glucose"
                       autoComplete="off"
@@ -199,7 +199,7 @@ const Diabetes = () => {
                     <label htmlFor="BloodPressure"></label>
                     <Tooltip title="BloodPressure" placement="right">
                     <input
-                      type="text"
+                            type="number" min="0" max="120"
                       name="BloodPressure"
                       id="BloodPressure"
                       autoComplete="off"
@@ -214,7 +214,7 @@ const Diabetes = () => {
                     <label htmlFor="SkinThickness"></label>
                     <Tooltip title="SkinThickness" placement="right">
                     <input
-                      type="text"
+                        type="number" min="1" max="120"
                       name="SkinThickness"
                       id="SkinThickness"
                       autoComplete="off"
@@ -229,7 +229,7 @@ const Diabetes = () => {
                     <label htmlFor="Insulin"></label>
                     <Tooltip title="Insulin" placement="right">
                     <input
-                      type="text"
+                 type="number" min="0" max="1000"
                       name="Insulin"
                       id="Insulin"
                       autoComplete="off"
@@ -244,7 +244,7 @@ const Diabetes = () => {
                     <label htmlFor="DiabetesPedigreeFunction"></label>
                     <Tooltip title="DiabetespedigreeFunction" placement="right">
                     <input
-                      type="text"
+                        type="number" min="1" max="2"
                       name="DiabetesPedigreeFunction"
                       id="DiabetesPedigreeFunction"
                       autoComplete="off"
@@ -277,4 +277,4 @@ const Diabetes = () => {
   );
 };
 
-export default Diabetes;                                                                                                                                                      
+export default Diabetes;                                                                                                                                                                                                                                                                                                        
