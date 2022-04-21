@@ -21,6 +21,8 @@ import FormLung from "./components/Lung/FormLung";
 import LungCancer from "./components/Lung/LungCancer";
 import File from './components/imageupload/file';
 import Diabetes from './components/Cancer/Diabetes';
+import Dia from './components/Cancer/Dia';
+import Btc from './components/Cancer/Btc';
 const App = () => {
   return (
     <>
@@ -41,10 +43,11 @@ const App = () => {
         <Route exact path="/doctor" component={Doctor} />
         <Route path="/pre" component={Dr} />
         <Route path="/btc" component={breastCancer} />
+        <Route path="/lung" component={Btc} />
         <Route path="/lungcancer" component={LungCancer} />
         <Route path="/FormLung" component={FormLung} />
         <Route exact path="/Calender" component={Calender}></Route>
-
+        <Route path="/Dia" component={Dia} />
         <Route component={Error}></Route>
       </Switch>
       </BrowserRouter>
