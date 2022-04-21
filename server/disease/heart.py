@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 
-df = pd.read_csv('https://raw.githubusercontent.com/VenkateshBH99/Hybrid-Random-Forest-Linear-Model/master/Normal_Models/cleve.csv',engine='python',encoding='UTF-8')
+df = pd.read_csv('https://raw.githubusercontent.com/yogitach01/Dyan-Medlife/main/server/disease/heart.csv',engine='python',encoding='UTF-8')
 data = df.values
 X = data[:, :-1]
 Y = data[:, -1:]
