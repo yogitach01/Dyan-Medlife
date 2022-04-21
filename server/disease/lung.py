@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 
-df = pd.read_csv('https://raw.githubusercontent.com/aniket193-web/lung-cancer-prediction-using-machine-learning-techniques-classification/1cac4c8cd3c82814a79068ac96da10d4beb26683/LungDataSet.csv',engine='python',encoding='UTF-8')
+df = pd.read_csv('https://raw.githubusercontent.com/yogitach01/Dyan-Medlife/main/server/disease/lun.csv',engine='python',encoding='UTF-8')
 df.replace('?',-99999,inplace=True)
 df.drop(['id'],1,inplace=True)
 
