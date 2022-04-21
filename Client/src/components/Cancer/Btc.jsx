@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import breast1 from './breast1.jpg';
+import breast2 from './breast2.jpg';
 
 const useStyle =makeStyles({
   component:{
@@ -120,16 +122,19 @@ const useStyle =makeStyles({
   const classes=useStyle();
     return (<>
            <Navbar />
-          
+           <div className={classes.jh} >
+          <img src={breast1} alt='gh' width={500} height={300} style={{'borderRadius':'15px'}}/>
+          </div>
+
           <div className={classes.sk} >
-          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lung-cancer-1595928153.jpg?crop=1.00xw:0.505xh;0,0.253xh&resize=1200:*"alt='gh' width={490} height={300} style={{'borderRadius':'15px'}}/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUQLCY7qdyFJpCGqu1rzLWAruAINWH7qU_Mxf0da9nPFhUttTXS61Y9l7_KJ2qjvhEbLA&usqp=CAU"alt='gh' width={490} height={300} style={{'borderRadius':'15px'}}/>
           </div>
         <div className={classes.component}> <div className={classes.com}>
         <h1 className={classes.h1} >Predict your chance of having lung Cancer</h1>
-        <h1 className={classes.hj} style={{top:'-19px'}} >Lung cancer prediction enable identifying and targeting women at high-risk, while reducing interventions in those at low-risk.</h1>
-<h2 className={classes.ho}>Each year number of deaths is increasing extremely because of Lung cancer. It is the most frequent type of all cancers and the major cause of death in women worldwide. Any development for prediction and diagnosis of cancer disease is capital important for a healthy life.</h2>
+        <h1 className={classes.hj} style={{top:'-19px'}} >Breast cancer prediction enable identifying and targeting women at high-risk, while reducing interventions in those at low-risk.</h1>
+<h2 className={classes.ho}>Each year number of deaths is increasing extremely because of Breast cancer. It is the most frequent type of all cancers and the major cause of death in women worldwide. Any development for prediction and diagnosis of cancer disease is capital important for a healthy life.</h2>
         <h3 className={classes.hj}style={{bottom:'-360px'}} >You will be able to know about your Cancer in just one Click !!!</h3>
-        <NavLink to="/lungcancer">
+        <NavLink to="/breastCancer">
           <Button className={classes.bu}>CHECK NOW</Button>
         </NavLink>
        
