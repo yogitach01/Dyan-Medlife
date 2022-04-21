@@ -1,0 +1,330 @@
+.btnsub {
+    width: 400px;
+    height: 120px;
+    line-height: 50px;
+    font-size: 25px;
+    padding: 0 20px;
+    box-shadow: inset 0 0 0 0 crimson;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 200px;
+    position: relative;
+    transition: 0.5s ease;
+    top: -8600px;
+    left: 1px;
+    right: -150px;
+    bottom: 191px;
+    background: linear-gradient(
+      44deg,
+      rgb(228, 21, 142),
+      purple,
+      rgb(0, 225, 255)
+    );
+  }
+  
+  .btnsub :hover {
+    box-shadow: inset 300px 0 0 0 yellow;
+  }
+  
+  .heading {
+    padding: 25px;
+    text-shadow: 1px 1px;
+  }
+  
+  .gender {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(10, 9, 9);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s ease;
+    top: 20px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    color: crimson;
+  }
+  
+  .age {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -600px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  .cp {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -1220px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .trestbps {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -1840px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .chol {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -2460px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .fbs {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -3073px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .restecg {
+    padding: 15px 54px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -3690px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .thalach {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -4299px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .exang {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -4900px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .oldpeak {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -5500px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .slope {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -9800px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .ca {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -6817px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .thal {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -7415px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    color: crimson;
+  }
+  
+  .target {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    transition: 0.5s ease;
+    top: -8002px;
+    left: 1px;
+    right: 120px;
+    bottom: 191px;
+    font-weight: bold;
+    color: crimson;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .container .card {
+    width: 1800px;
+    height: 1980px;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    align-content: center;
+    
+    /* other styles */
+    
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(100px);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  .shape {
+    position: absolute;
+    width: 300px;
+    top: -px;
+    left: 0.5rem;
+    right: 420px;
+    bottom: 300px;
+  }
+  
+  
