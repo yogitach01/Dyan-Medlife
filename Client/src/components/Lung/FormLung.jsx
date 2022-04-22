@@ -153,7 +153,7 @@ const history=useHistory();
                     <label htmlFor="Gender"></label>
                     <Tooltip title="Enter '0' for Male and '1' for Female" placement="right">
                     <input
-                      type="text" min="1" max="0"
+                      type="number" min="1" max="0"
                       name="Gender"
                       id="Gender"
                       autoComplete="off"
@@ -168,7 +168,7 @@ const history=useHistory();
                     <label htmlFor="Age"></label>
                     <Tooltip title="Enter your Age" placement="right">
                     <input
-                      type="text" min="0" max="120"
+                      type="number" min="0" max="120"
                       name="Age"
                       id="Age"
                       autoComplete="off"
@@ -183,7 +183,7 @@ const history=useHistory();
                     <label htmlFor="AirPollution"></label>
                     <Tooltip title="AirPollution" placement="right">
                     <input
-                      type="text" min="1" max="20"
+                      type="number" min="1" max="20"
                       name="AirPollution"
                       id="AirPollution"
                       autoComplete="off"
@@ -198,7 +198,7 @@ const history=useHistory();
                     <label htmlFor="Alcoholuse"></label>
                     <Tooltip title="Alcoholuse" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="Alcoholuse"
                       id="Alcoholuse"
                       autoComplete="off"
@@ -213,7 +213,7 @@ const history=useHistory();
                     <label htmlFor="DustAllergy"></label>
                     <Tooltip title="DustAllergy" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="DustAllergy"
                       id="DustAllergy"
                       autoComplete="off"
@@ -228,7 +228,7 @@ const history=useHistory();
                     <label htmlFor="OccuPationalHazards"></label>
                     <Tooltip title="OccuPationalHazards" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="OccuPationalHazards"
                       id="OccuPationalHazards"
                       autoComplete="off"
@@ -243,7 +243,7 @@ const history=useHistory();
                     <label htmlFor="Geneticrisk"></label>
                     <Tooltip title="GeneticRisk" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="GeneticRisk"
                       id="GeneticRisk"
                       autoComplete="off"
@@ -258,7 +258,7 @@ const history=useHistory();
                     <label htmlFor="chronicLungDisease"></label>
                     <Tooltip title="chronicLungDisease" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="chronicLungDisease"
                       id="chronicLungDisease"
                       autoComplete="off"
@@ -272,7 +272,7 @@ const history=useHistory();
                     <label htmlFor="BalancedDiet"></label>
                     <Tooltip title="Balanced Diet" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="BalancedDiet"
                       id="BalancedDiet"
                       autoComplete="off"
@@ -286,7 +286,7 @@ const history=useHistory();
                     <label htmlFor="Obesity"></label>
                     <Tooltip title="Obesity" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="Obesity"
                       id="Obesity"
                       autoComplete="off"
@@ -300,7 +300,7 @@ const history=useHistory();
                     <label htmlFor="Smoking"></label>
                     <Tooltip title="Smoking" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="Smoking"
                       id="Smoking"
                       autoComplete="off"
@@ -314,7 +314,7 @@ const history=useHistory();
                     <label htmlFor="PassiveSmoker"></label>
                     <Tooltip title="PassiveSmoker" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="PassiveSmoker"
                       id="PassiveSmoker"
                       autoComplete="off"
@@ -328,7 +328,7 @@ const history=useHistory();
                     <label htmlFor="ChestPain"></label>
                     <Tooltip title="ChestPain" placement="right">
                     <input
-                      type="text" min="1" max="7"
+                      type="number" min="1" max="7"
                       name="ChestPain"
                       id="ChestPain"
                       autoComplete="off"
@@ -343,7 +343,7 @@ const history=useHistory();
                     <label htmlFor="CoughingofBlood"></label>
                     <Tooltip title="CoughingofBlood" placement="right">
                     <input
-                      type="text" min="1" max="8"
+                      type="number" min="1" max="8"
                       name="CoughingofBlood"
                       id="CoughingofBlood"
                       autoComplete="off"
@@ -357,7 +357,7 @@ const history=useHistory();
                     <label htmlFor="Fatigue"></label>
                     <Tooltip title="Fatigue" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="Fatigue"
                       id="Fatigue"
                       autoComplete="off"
@@ -371,7 +371,7 @@ const history=useHistory();
                     <label htmlFor="WeightLoss"></label>
                     <Tooltip title="WeightLoss" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="WeightLoss"
                       id="WeightLoss"
                       autoComplete="off"
@@ -386,7 +386,7 @@ const history=useHistory();
                     <label htmlFor="ShortnessofBreath"></label>
                     <Tooltip title="ShortnessofBreath" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="ShortnessofBreath"
                       id="ShortnessofBreath"
                       autoComplete="off"
@@ -400,7 +400,7 @@ const history=useHistory();
                     <label htmlFor="Wheezing"></label>
                     <Tooltip title="Wheezing" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="Wheezing"
                       id="Wheezing"
                       autoComplete="off"
@@ -414,7 +414,7 @@ const history=useHistory();
                     <label htmlFor="SwallowingDifficulty"></label>
                     <Tooltip title="SwallowingDifficulty" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="SwallowingDifficulty"
                       id="SwallowingDifficulty"
                       autoComplete="off"
@@ -428,7 +428,7 @@ const history=useHistory();
                     <label htmlFor="ClubbingofFingerNails"></label>
                     <Tooltip title="ClubingofFingerNails" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="ClubbingofFingerNails"
                       id="ClubbingofFingerNails"
                       autoComplete="off"
@@ -442,7 +442,7 @@ const history=useHistory();
                     <label htmlFor="FrequentCold"></label>
                     <Tooltip title="FrequentCold" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="FrequentCold"
                       id="FrequentCold"
                       autoComplete="off"
@@ -456,7 +456,7 @@ const history=useHistory();
                     <label htmlFor="DryCough"></label>
                     <Tooltip title="DryCough" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="DryCough"
                       id="DryCough"
                       autoComplete="off"
@@ -470,7 +470,7 @@ const history=useHistory();
                     <label htmlFor="Snoring"></label>
                     <Tooltip title="Snoring" placement="right">
                     <input
-                      type="text" min="1" max="10"
+                      type="number" min="1" max="10"
                       name="Snoring"
                       id="Snoring"
                       autoComplete="off"
@@ -480,6 +480,7 @@ const history=useHistory();
                       placeholder="Snoring"
                     ></input></Tooltip>
                   </div>
+
                   <div className="form-group form-button">
                     <Button
                       name="predict"
