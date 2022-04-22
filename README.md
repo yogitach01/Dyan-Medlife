@@ -16,20 +16,21 @@ Our Aim is to build the system for one click prediction and detection of deadly 
 
 # Implementation
 Currently we have covered(Value based)
-Heart diseases prediction
-Lung Cancer prediction
-Breast Cancer prediction
-Diabetes Prediction
-and (symptoms based)
-Jaundice
-malaria
-Impetigo
-Hepatitis A,B,C,D,E
-Typhoid
-Drug Reaction
-Fungal Infection
-Vertigo
-Hypertension
-Pneumonia
-Piles
-Asthma etc..
+#### Heart diseases prediction
+#### Lung Cancer prediction
+#### Breast Cancer prediction
+#### Diabetes Prediction
+and 
+#### (symptoms based)
+#### Jaundice
+#### malaria
+#### Impetigo
+#### Hepatitis A,B,C,D,E
+#### Typhoid
+#### Drug Reaction
+#### Fungal Infection
+#### Vertigo
+#### Hypertension
+#### Pneumonia
+####   Piles
+#### Asthma etc..
