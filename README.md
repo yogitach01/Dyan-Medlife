@@ -22,15 +22,6 @@ Currently we have covered(Value based)
 #### Diabetes Prediction
 and 
 #### (symptoms based)
-#### Jaundice
-#### malaria
-#### Impetigo
-#### Hepatitis A,B,C,D,E
-#### Typhoid
-#### Drug Reaction
-#### Fungal Infection
-#### Vertigo
-#### Hypertension
-#### Pneumonia
-####   Piles
-#### Asthma etc..
+[](url
+![Screenshot (2785)](https://user-images.githubusercontent.com/80771166/164613360-42f99e86-c5dd-43b6-a8dd-db41d36aa378.png)
+)
