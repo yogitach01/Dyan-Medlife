@@ -15,7 +15,7 @@ There are some common diseases like Malaria,Jaundice etc that shares common symp
 Our Aim is to build the system for one click prediction and detection of deadly diseases which has potential to reduce mortality rate by early prediction and can make drastic changes in whole medical system in future.
 
 # Implementation                      
-Currently we have covered(Value based)           Accuracy
+Currently we have covered(Value based) prediction of following disease mentioned with Accuracy
 #### Heart diseases prediction                    96.00%
 #### Lung Cancer prediction                       89.67%
 #### Breast Cancer prediction                     92.00%  
