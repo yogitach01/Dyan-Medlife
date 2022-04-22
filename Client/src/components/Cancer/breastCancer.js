@@ -40,8 +40,8 @@ const useStyle=makeStyles({
     marginTop:10
   },
   te:{
-    width:"500px",
     padding: "12px 20px",
+    width:"500px",
   margin:"8px 0",
   display: "inline-block",
   border: "2px solid black",
@@ -66,7 +66,7 @@ const useStyle=makeStyles({
   },
   card :{
     width: "1800px",
-    height: "1400px",
+    height: "2000px",
     padding: '2rem',
     borderRadius: "2rem",
     boxShadow:" 20px 20px 50px rgba(0, 0, 0, 0.5)",
@@ -99,7 +99,7 @@ const Dctr = () => {
 
   const onOnclickHandler =  async () => {
     let response=await detectbreast(user);
-    /{setBreast(response.data)}/
+    /*{setBreast(response.data)}*/
     alert("result" + response.data);
   };
    const classes=useStyle();
@@ -154,7 +154,7 @@ const Dctr = () => {
                     <label htmlFor="cp"></label>
                     <Tooltip title="CLump Thickness" placement="right">
                     <input
-                      type="number" min="1" max="10"
+                      type="number" min="1" max="4"
                       name="clump_thickness"
                       id="clump_thickness"
                       autoComplete="off"
