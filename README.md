@@ -12,14 +12,14 @@ The correct prediction of diseases become an most challenging task. there are al
 There are some common diseases like Malaria,Jaundice etc that shares common symptoms and when we visit doctor he asks us to do lots of lab tests which results in wastage of money as well as unnecessary trauma. we wanted to change this to input the symptoms and it will predict the disease.Also in case of pandemic which we have been recoverd from recently the focus of whole medical system shifts towards the pandemic which leads to ignorance towards other diseases and we lost many people lives for not taking proper treatment or fear of getting tested positive for the disease of the pandemic and not visiting lab for tests.
 
 # Aim
-Our Aim is to build the system for one click prediction and detection of deadly diseases which has potential to monetize whole medical system in future.
+Our Aim is to build the system for one click prediction and detection of deadly diseases which has potential to reduce mortality rate by early prediction and can make drastic changes in whole medical system in future.
 
-# Implementation
-Currently we have covered(Value based)
-#### Heart diseases prediction
-#### Lung Cancer prediction
-#### Breast Cancer prediction
-#### Diabetes Prediction
+# Implementation                      
+Currently we have covered(Value based)           Accuracy
+#### Heart diseases prediction                    96.00%
+#### Lung Cancer prediction                       89.67%
+#### Breast Cancer prediction                     92.00%  
+#### Diabetes Prediction                          88.00%
 and 
 #### (symptoms based)
 Following 36 DIsease are predicted by our system succesfully with accuracy of 96.03%
