@@ -1,5 +1,5 @@
 # Dyan-Medlife
-Recursion 3.0
+
 DYAN MEDLIFE
 Dyan medlife is a disease predictiing system that allows user to predict common diseases, heart disease,lung cancer, breast cancer,Diabetes.
 We see our target audience as doctors as well as patients.
