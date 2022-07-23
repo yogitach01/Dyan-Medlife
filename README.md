@@ -25,8 +25,8 @@ and
 Following 36 DIsease are predicted by our system succesfully with accuracy of 96.03%
 ![Screenshot (2785)](https://user-images.githubusercontent.com/80771166/164613360-42f99e86-c5dd-43b6-a8dd-db41d36aa378.png)
 
-#view Demo
+# view Demo
 
 
 
-[!(https://www.youtube.com/watch?v=wdm2ZZEpQRE.jpg)](https://www.youtube.com/watch?v=wdm2ZZEpQRE)
+
