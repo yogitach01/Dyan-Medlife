@@ -29,4 +29,4 @@ Following 36 DIsease are predicted by our system succesfully with accuracy of 96
 
 
 
-[![SC2 Video](https://www.youtube.com/watch?v=wdm2ZZEpQRE.jpg)](https://www.youtube.com/watch?v=wdm2ZZEpQRE)
+[!(https://www.youtube.com/watch?v=wdm2ZZEpQRE.jpg)](https://www.youtube.com/watch?v=wdm2ZZEpQRE)
